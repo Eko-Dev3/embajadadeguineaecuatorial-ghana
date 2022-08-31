@@ -1,0 +1,29 @@
+.profile-card {
+    .card {
+        height: 100% !important;
+        border: none;
+        .card-body {
+            padding: 36px 12px;
+            .card-title {
+                p {
+                    font-size: 14px;
+                    color: #fdc982;
+                    padding: 4px 10px;
+                    font-weight: 500;
+                }
+            }
+            .card-text {
+                color: #919291;
+            }
+        }
+        .card-footer {
+            border-top: none;
+            background-color: inherit;
+            text-align: center;
+            a {
+                padding: 0 5px;
+                color: #919291;
+            }
+        }
+    }
+}
